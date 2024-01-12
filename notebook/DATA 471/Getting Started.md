@@ -47,3 +47,5 @@ Every domain can and/or will be transformed by ML
 4 faculty candidates this quarter
 
 Brian doesn't have the paid ChatGPT plan!?
+
+Trying to do ML experimentation on fridays

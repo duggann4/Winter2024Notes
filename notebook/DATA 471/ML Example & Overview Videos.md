@@ -27,7 +27,7 @@ Feature extraction stuff important, deep-learning can sidestep this (human bias)
 Normalization and standardization used to sidestep model scale sensitivities
 Supervised outputs:
 - $R^C$: regression problems
-- categoricals $\{0, 1, \hdots, C-1\}$: classification
+- categoricals $\{0, 1, ..., C-1\}$: classification
 - sequence of equal length to input: sequence labelling
 - sequence of arbitrary length: decoding (not a standard term, but common in lit)
 	- encoder/decoder examples: Image alt text, audio captioning
@@ -47,5 +47,12 @@ Models:
 	- non-parametric depends on training data, implications on storage space and evaluation stage complexity. e.g. k-nearest neighbors (DL)
 - probabalistic vs. non-prob.
 	- prob. capable of $P(y\mid x)$
-		- subsets: discriminitive ($P(y \mid x$, may be simpler), generative (both sup. and non-sup.) ($P(x,y)$ on $P(x)$, produce samples)
+		- subsets: discriminitive ($P(y \mid x)$, may be simpler), generative (both sup. and non-sup.) ($P(x,y)$ or $P(x)$, produce samples)
 	- non-prob can't.
+
+## In-class
+Not hitting every combination of model flavors this quarter...
+A lot of stuff can be traced back to bad normalization
+Generalization videos for tues
+meta-ML exists, but not the best...
+feature extraction: how do I represent data to feed it to a model?
