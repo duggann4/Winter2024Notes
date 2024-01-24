@@ -60,3 +60,41 @@ New Oreleans
 - Flipping the script
 	- Ch and SF centered disfigurement with begging embedded
 	- NO centered begging with disfigurement embedded
+
+# Class Discussion
+Next Thursday, going to the archives (S. campus)
+## Crip camp reflections
+- Nothing changes unless you make life inconvenient for the politicians
+- Disability in archives lacking
+- 70s...
+- antithetical to american exceptionalism
+- Judy & disabled trachers
+- What's lost by not teaching this in HS?
+	- Feeling that people w disabilities don't matter
+	- the longest govt sit-in in history just doesn't come up
+	- Civil rights history: A forgotten dimension
+	- forgetting how powerful we can be when we stand together
+	- voting accessibility in 2002
+	- IDEA, ADA, 504
+		- narrative that they're a chore
+		- "being greatful"
+## Ugly Laws Discussion
+- links between ableism and dependency, exceptionalism
+- San Francisco & finances, urban development
+	- blue wall, right? Wait a minute...
+- no-sit-no-lie and hostile architecture
+- The idea of who deserves care
+- Boycott Woods Coffee
+- single-use zoning
+- vagrancy
+- Police brutality
+	- terry stops
+- poorness as a disability
+	- moral disability
+- heirarchy of disability
+- direct labelling
+- dehumanization
+- non-intersectionality
+- capitalist-motivated
+- Equality $\neq$ dismantling the system
+	- Can't really dismantle from within
