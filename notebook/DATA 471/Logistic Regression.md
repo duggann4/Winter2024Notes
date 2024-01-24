@@ -17,4 +17,14 @@ Moving towards classification
 	- $L(h(x),y)=-y \ln(h(x)) - (1-y)\ln(1-h(x))$ where $h(x)=P(y=1 \mid x)$
 	- very cautious, worst thing is to be confidently wrong
 - Messing with weights and biases
-- 
+
+# Multinomial Logistic Regression
+For this class, labels are going to be mostly binary, but soft labels *can* exist as a special use case
+- supports multi-class instead of just binary
+- Similar changes to SLR -> MLR
+	- $W$ is now a matrix, $b$ now a vector
+- Do MLR $C$ times, take the highest value, kinda
+	- which class is most confident that the point exists there?
+- softmax: convert the output vectors into probabilities
+- Cross-entropy
+- Initialization matters with numerical instability
