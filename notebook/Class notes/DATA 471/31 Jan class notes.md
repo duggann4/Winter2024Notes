@@ -1,0 +1,13 @@
+- Q3 on Fri
+- halfspaces
+	- neural nets learn where to put the hyperplanes
+- making predictions from the hidden representations
+- "black box" vs "method to madness"
+	- the whole is beyond
+- minibatch: random sample of train set
+- purely stochastic gradient decent: mb=1
+- full-batch gradient decent: mb=ntrain
+- epochs: full pass throughs of the training data
+- mb size GPU-dependent
+- number of epochs based on overfit scenarios
+- 

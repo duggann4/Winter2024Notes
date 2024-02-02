@@ -1,0 +1,21 @@
+# Big research project discussion
+- Added a bunch of stuff to Canvas last night...
+- Databases are a thing that exist
+- archivals!
+- lit review
+- student journal exists
+- template very similar to C2C stuff
+- thesis: Why does this work that you've done matter?
+- 5 academic sources
+- conclusion: so what?
+- Citations: ACM?
+- top module on Canvas
+- 10 pgs double spaced
+- 60's WWU disabled students!?
+- dissertations
+- "maladjustment"
+- history of sped; weisner
+- expecting schools to be the cure-all
+- bettering circumstances
+- marital status shifts, Altman
+- 

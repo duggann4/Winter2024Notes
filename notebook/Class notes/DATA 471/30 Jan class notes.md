@@ -1,0 +1,4 @@
+- ReLU gives half zeroes
+- tanh gives negatives
+- just pick relu if you don't feel like thinking
+- 
