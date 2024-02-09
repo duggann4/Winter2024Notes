@@ -1,0 +1,42 @@
+- My book: Chapt 4 going to be amazing
+- Zoom immersive view is a thing that exists now...?
+## Archives debrief
+- net positive
+- choice paralysis
+## Activism Project
+- due Mar 5
+- groups
+- Supporting the activists that we are researching for thursdays
+- arrow project!
+- big idea: go do stuff; applying classroom discussion to IRL
+- no wrong way to do it
+## Readings
+- two very different approaches
+- first one: "and now everything's fine..."
+	- non-disabled parent involvement
+	- main protag: parents
+	- Yale: medical model - things to be solved, backseat view
+	- betterment
+	- detachment, inhuman
+	- undue optimism
+	- double standards in education vs adulthood
+	- "normalizing"; construction of normal
+	- paper vs implementation
+	- the importance of title phrasing
+- Second one
+	- future torchbearer of civilization: eugenics and boxes
+	- so much that goes into education
+	- the unwritten curriculum
+	- non-standard english
+		- ELL
+		- AAVE
+	- instutional racism & othering
+	- distancing
+	- ACAB-y
+	- critiquing the system vs personal
+	- main protag: policy makers
+	- by vs for
+	- overgeneralizations
+	- speech != intelligence
+		- Personal note: bar charts
+	- 

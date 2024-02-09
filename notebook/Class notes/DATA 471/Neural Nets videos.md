@@ -1,0 +1,84 @@
+# Layers
+- unit of transformation
+- Applies a single step of processing:
+	- Applies a linear transformation $z=w^Tx+b$
+	- apply an activation $a=f(z)$
+		- common output layers:
+			- if $f(z)=z$, linear layer for regression.
+			- $\sigma(z)$ is a logistic layer for binary class.
+			- $softmax(z)$ is a softmax layer for multiclass
+- neural nets: sequences of intermediate layers, thus $\phi(x)$ as input
+# Intro to NNs
+- Standard feed-forward single-hidden-layer net
+- intermediate hidden layer $h$
+- about:
+	- flexible
+	- powerful
+	- in and out of popularity/fashion, lots of different names
+		- deep learning, starting in the late 2000s
+		- improvements in computational power, algorithms
+- classification OR regression - frameworks that we can append to
+- prob or non-prob
+- single hidden layer (1): $x \to (z_{(1)}a_{(1)}) \to (z_{(2)}a_{(2)}) \to y$
+	- $z_{(1)} = w_{(1)}^Tx+b_{(1)}$
+	- $a_{(1)}=f_1(a_{(1)})$
+- $R^D \to R^L \to R^C$
+- Hidden activations:
+	- sigmoid
+	- tanh
+	- ReLU ($\max(0,z)$) good for deep nets due to others having weird gradients, popular
+	- **NOTE:** $f(z) \neq z$
+- output activations:
+	- dictated by task
+	- see "common output layers" above
+- Loss functions:
+	- regression: squared error loss
+	- classification: cross-entropy
+- Choosing $L$: now a hyperparameter that we need to pick
+- hidden layer learned $\phi(x)$
+	- if $L>D$: feature expansion
+	- $L=D$: transformation
+	- $L<D$: bottleneck, curbs overfit with high-dim input
+- generalizes to multiple hidden layers
+# MB stoch. GD
+- before we start training...
+- $\hat{R}(\theta)$ usually a sum of something
+	- take the partial derivative wrt $\theta$
+- batch gradient descent: uses all $N$ points
+	- can have a lot of redundancy
+	- what if we used a random subset of data?
+		- quality of gradient asymptotic on $N$
+- Minibatches: subsets of training points
+	- minibatch size ($mb$): number of points, an important hyperparameter
+- Purely stochastic gradient descent (SGD): $mb=1$
+- minibatch SGD: randomly sample a minibatch each update
+- Effects of varying $mb$:
+	- As decreases, compute time decreases (asymptotically - see parallelization)
+	- As decreases, we get noisier gradients (more randomness)
+		- floor moves underneath you, backpedaling
+		- need more updates to converge
+		- less likely to get trapped in sub-optimal local minima
+	- rule of thumb: 
+		- for fast training, limitation is GPU memory, usually powers of 2 in 32-256 or 512
+		- for best generalizations, smallest tolerable (gets slow)
+- Practical applications:
+	- Online training: minibatch data comes from a stream, see each x,y just once
+	- else: do a random permutation of the data, then treat it as a stream
+		- various ways of introducing randomness: shuffling, stuttering, clipping, etc.
+- Epoch: one pass through the training set
+	- A question of overfit; going back to the same data
+	- early stopping techniques exist by monitoring dev performance
+# DNNs
+# Intro to backprop
+- computing the gradients for training these models
+- We want partial derivatives of loss function wrt $w$ and $b$
+- chain rule of Calculus
+	- $x \to u \to w \to z \to y$, we want $\frac{dy}{dx}$
+	- $\frac{dy}{dx} = \frac{du}{dx}\frac{dw}{du}\frac{dz}{dw}\frac{dy}{dz}$
+	- what if we make $w$ a vector with $L$ dims?
+	- $\frac{dy}{dx} = \frac{du}{dx}(\sum_{i=1}^L\frac{dw_i}{du}\frac{dz}{dw_i})\frac{dy}{dz}$
+	- Calculating gradients by blindly applying chain rule for each parameter *painful*
+		- We *could* do it, but just... no...
+- **The heart of backprop: The dynamic programming approach to chain rule application for each parameter**
+	- working backwards
+	- iteratively processing going towards shallower layers

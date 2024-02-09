@@ -1,0 +1,35 @@
+- A3 pretty straightforward; mostly just data entry
+- reality check
+	- professional context
+- do it manually for now, just so you can say you did it
+	- legacy and/or archival data entry
+- dashboards: not much to do in config
+	- elements
+	- Arcade?
+- Dashboards are a synthesis communication tool
+	- audience
+- A3 design for public
+- The nature of graphic design
+- getting things to be responsive to map actions - interactivity
+- Configuring pop-ups
+	- webmap
+	- do analysis in Pro, but also communicate in the OL env
+- popups vs attr. table
+- in 2 months, be able to create dashboards for the mayor
+- understand GIS and design
+	- much richer place to spend time
+- "publish"="share"
+	- layers
+	- maps
+	- scenes and psuedo-barcharts
+- Do some rough designwork in Pro for basemaps, colors
+	- do as much as you can in Pro
+- levels of OCD - not recommended
+	- RMSE
+- won't override
+	- don't overshare...
+	- keep dataman clean
+- Do some pop-up learning
+	- alias-ing
+	- minor improvements compound!
+Wed: Quiz exists, in-person optional
