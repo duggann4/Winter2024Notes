@@ -1,0 +1,25 @@
+- need to watch the film...
+- overreliance of the pixie dream girl trope
+- starting with how they became disabled; entertainment factor
+	- takes an angel to recognize a disabled person as a person
+- hot garbage; $200M global B.O.
+- hopeless romantics
+- third cousin twice removed sort of dynamic
+- "the right to die" a very slippery slope
+	- mental health & acquired disability
+	- See also: that polio article
+- gataca
+	- black stork
+- irredemable a word that is associated with moral character
+- staying in a hotel without telling mom
+- (toxic) masculinity & independence
+- MAID: defining "pain"
+	- choosing whether or not to live, autonomy
+- chronological before
+- euthenasia
+- last line of the film...
+	- being killed allowed him to walk again - freedom
+	- "and now everything's fine"...
+- the non-maid alternate history
+	- the entirety of an existence - can't have a bad day
+	- needing romantic love for life to be worth living

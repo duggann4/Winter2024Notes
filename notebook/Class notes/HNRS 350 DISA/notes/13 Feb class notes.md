@@ -1,0 +1,32 @@
+Need to schedule a research meeting on Fri? free all day!
+
+- The "quiet" part
+	- explicit eugenics
+- "diagnosed with feminism"
+- russian army vet denied entry trying to escape conscription
+- product of the system
+- public charge
+	- Still in Australia, NZ
+- The San Francisco effect wrt ugly laws
+- Gerber baby contest?
+- shifts of terminology via industrial capitalism
+- 2016 - great timing for immigration stuff...!
+	- the former president that shall not be named
+- Henry Ford
+	- hiring disabled people, about the only good thing to say about him...
+	- A "Goodwill" sorta thing
+- pinning blame - pre-OSHA - Just culture
+- "correlations" between race and disability
+	- letting in the best of certain ethnicities
+	- Brain Drain - cold war
+- venn diagram's a circle
+- Medical insurance co.s
+- positive feedback loops
+	- white coat syndrome
+- ethnic enclaves
+	- social movements & change
+- psuedo american race
+- ugly laws carryover
+- self-selecting
+- war
+- refugee status doesn't exist in this context...

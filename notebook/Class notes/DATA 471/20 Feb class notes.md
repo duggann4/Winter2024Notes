@@ -1,0 +1,23 @@
+- paper 1 grades good
+- program is a thing
+	- don't do early stopping
+	- accuracy, not cross entropy - need to update this!
+- final project: practical axperimentation
+
+Performance metrics
+- for humans to be able to tell whether a model is good
+- comparing models
+- types:
+	- loss, but they're primarily designed for machines...
+	- metrics are designed for human assessment
+		- often computed periodically on dev in the training loop
+		- can highlight certain desirable or undesirable model behaviors
+		- better to use metrics for early stopping
+		- TYPES!!!
+			- confusion matrix - binary classification
+				- columns are predictions
+				- TN,FP\\\\FN,TP
+				- accuracy: higher is better, $\frac{TP+TN}{N}$
+				- error: $1-acc$
+				- precision: $\frac{TP}{TP+FP}$
+				- recall: $frac{TP}{TP+FN}$

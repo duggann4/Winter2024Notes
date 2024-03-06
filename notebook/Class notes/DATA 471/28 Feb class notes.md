@@ -1,0 +1,36 @@
+# Genetic Algorithms
+- see also: evolution
+- an alternative to grad descent
+- crossover, mutations
+- population diversity
+	- goal: Third Reich
+	- Kristen's class has corrupted me with "everything is eugenics"...
+- parts:
+	- encoding schemes
+	- fitness functions
+		- survival of the fittest
+	- selection techniques
+		- breeding
+	- crossover
+		- "reproductive cells" - percent of genes that go into the zygote
+	- mutation - the "getting better" bit
+- when?
+	- scheduling
+	- avoiding local optimization
+	- hyperparameter tuning
+	- parallelization straightforward
+- notebook demo!
+	- cell run 113!?
+- inbreeding?
+
+# Simulated Annealing
+- metal annealing
+- approximating the global min
+- state: one possible state of the problem
+- temerature: probability of accepting a new state given the current state
+	- reducing volatility over time
+- rate at which the temperature decreases
+- avoiding local minima: jumping via accepting worse states
+- combinatorics-based optimization
+- psuedo-$O(1)$, since number of steps is a hyperparameter
+- 
